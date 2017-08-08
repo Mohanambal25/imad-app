@@ -1,6 +1,7 @@
 //counter code
- var counter;
-document.getElementById("counter").onclick(function(){
+var counter;
+var button=document.getElementById("counter");
+button.onclick=function(){
  
     
     
@@ -10,4 +11,4 @@ document.getElementById("counter").onclick(function(){
     document.getElementById("count").innerHTML=counter.toString();
     
     
-});
+}
