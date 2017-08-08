@@ -1,8 +1,8 @@
 //counter code
-var counter;
+
 var button=document.getElementById("counter");
 button.onclick=function(){
- 
+var counter=0;
     
     
     
